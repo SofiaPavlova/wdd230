@@ -5,7 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WDD230 Sofia Pavlova</title>
     <meta name="description" content="Assignment portal for Sofia Pavlova in WDD 230: Web Frontend Development at Brigham Young University - Idaho">
-    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto+Mono:wght@100&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/small.css"/>
+<link rel="stylesheet" href="css/medium.css"/>
+
     <script defer src="js/dates.js"></script>
 </head>
 <body>
@@ -16,15 +23,20 @@
 <main>
     <h2>WDD 230: Assignment Portal</h2>
     <ul>
-        <li><a href="">Lesson 02</a></li>
-        <li><a href="">Lesson 03</a></li>
-        <li><a href="">Lesson 04</a></li>
-        <li><a href="">Lesson 05</a></li>
+        <li>Lesson 02<a href="lesson2/design-principles.html">Design Principles Document</a></li>
+        <li>Lesson 03<a href=""></a></li>
+        <li>Lesson 04<a href=""></a></li>
+        <li>Lesson 05<a href=""></a></li>
        
     </ul>
 </main>
     <footer>
-&copy; <span id="copyrightyear"></span> | Sofia Pavlova | <a href="https://www.byui.edu/online">BYUI Online Learning</a> 
+&copy; <span id="copyrightyear"></span> | Sofia Pavlova | <a class="footerlink" href="https://www.byui.edu/online">BYUI Online Learning</a><script>
+    if (Date.parse(document.lastModified) != 0)
+        document.write('<p><hr><small><i>Last modified: '
+                       + document.lastModified
+                       + '</i></small>');
+    </script>
     </footer>
 </body>
 </html>
