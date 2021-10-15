@@ -42,3 +42,10 @@ var objToday = new Date(),
 
 var today = dayOfWeek + " " + dayOfMonth + " of " + curMonth + ", " + curYear;
 document.querySelector("#modify").textContent = today;
+
+const d = new Date();
+const weekD = d.getDay();
+
+if(weekD==5){
+  document.querySelector(".banner").style.display="block";
+}

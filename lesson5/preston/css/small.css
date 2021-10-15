@@ -5,6 +5,22 @@ body {
     padding:0;
     margin:0 auto;
 }
+.banner {
+    display: none;
+    background-color: #ffef78 ;
+    color: black;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    padding: 16px;
+    margin:0 auto;
+    display: flex;
+    align-items: center;
+}
+
+
+main {
+    padding: 10px;
+}
 header {
     max-width: 100%;
     background-color: #628fa6;
@@ -34,7 +50,6 @@ nav button {
     font-size: 1.6rem;
 }
 nav {
-    
     background-color: #01263d;
     color: white;
 }
@@ -56,8 +71,9 @@ nav ul li a:hover{
     color: black;
 }
 nav ul li.active a {
-    background-color: #ffef78;
+    background-color: #f0ebe1;
     color: #01263d;
+    text-decoration: underline;
     
 }
 
@@ -71,21 +87,82 @@ main {
     margin: 0 auto;
 
 }
+
 h1, h2 {
     font-family: 'Playfair Display', serif;
+    text-align: center;
 }
 .sec2 {
-    border: 1px solid black;
     padding: 3px;
     margin: 10px;
 
 }
+.herodiv {
+    margin: 10px auto; 
+    position: relative;
+}
+.weathersum {
+    position: absolute;
+	top: 25px;
+	right: 50px;
+	background: radial-gradient(#f0ebe1, #ffef78);
+	border: 1px solid #f0ebe1;
+	padding: 1.5rem;
+	box-shadow: 0 0 10px #333;
+	opacity: .9;
+}
+.weathersum h2 {
+    text-decoration: underline 2px #333;
+}
+.forecast {
+    display: none;
+}
+
 .preston{
     text-align: center;
+}
+.grid { 
+	display: none;
+}
+.data {
+        display: block;
+        padding: 0 5px 5px;
+        font-size: 1.2rem;
+        text-align: center;
 }
 p, q {
     text-align: center;
     font-family: 'Sarabun', sans-serif;
+    padding: 15px;
+}
+.article {
+    display:block;
+    background-color: rgba(98, 143, 166, 0.2);
+
+}
+.article img{
+align-content: center;
+justify-items: center;
+}
+.map {
+    display: none;
+}
+.contact{
+    background-color: #ffef78 ;
+    padding: 10px;
+    display: block;
+}
+.social {
+    text-align: center;
+
+}
+
+.contact img:hover{
+    box-shadow: 0 0 10px #628fa6;
+}
+div .social img:hover {
+    box-shadow: 0 0 10px #628fa6;
+     
 }
 footer{
     background-color: #01263d;

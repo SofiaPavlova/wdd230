@@ -1,0 +1,71 @@
+@media only screen and (min-width: 37.5em) {
+heading img {
+    width: 128px;
+}
+nav button {
+    display: none;
+}
+nav ul.hide {
+    display: block;
+}
+nav ul {
+    margin-left: 2%;
+}
+nav ul li {
+    float: left;
+}
+nav ul li a {
+border: none;
+border-right: 1px solid white;
+padding: .8rem 1rem;
+}
+.forecast {
+    display: block;
+}
+.grid { 
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(50px,1fr));
+}
+.grid-col {
+	background-color: #628fa6;
+    border: 1px solid white;
+	text-align: center;
+}
+
+.grid-col p {
+    border-radius: 100px;
+	padding: 0.25rem;
+    size: 200%;
+}
+.col-head {
+	display: block;
+	padding: 5px;
+	border-bottom: 1px solid white;
+    background-color:#01263d ;
+    color: white;
+	text-align: center;
+}
+.article img{
+    float: right;
+    padding: 7px;
+}
+.article p {
+    text-align: left;
+}
+.map {
+    display: block;
+}
+.contact img {
+    float: left;
+    margin-right: 15px;
+    margin-left: 25px;
+}
+.contact p {
+    text-align: left;
+    padding: 7px;
+}
+.social {
+    text-align: left;
+
+}
+}
