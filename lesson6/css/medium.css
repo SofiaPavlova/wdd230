@@ -20,14 +20,15 @@ border-right: 1px solid white;
 padding: .8rem 1rem;
 }
 .weathersum {
-    position: absolute;
+        position: absolute;
+    left: 50px;
 	top: 25px;
-	right: 50px;
 	background: radial-gradient(#f0ebe1, #ffef78);
 	border: 1px solid #f0ebe1;
 	padding: 1.5rem;
 	box-shadow: 0 0 10px #333;
 	opacity: .9;
+    width: 30%;
 }
 .forecast {
     display: block;

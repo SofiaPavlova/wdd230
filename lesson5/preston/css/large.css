@@ -12,6 +12,7 @@
         padding: 1.5rem;
         box-shadow: 0 0 10px #333;
         opacity: .9;
+        width: 30%;
     }
     .forecast {
         display: block;

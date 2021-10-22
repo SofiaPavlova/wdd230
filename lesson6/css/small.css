@@ -19,7 +19,6 @@ body {
     align-items: center;
 }
 
-
 main {
     padding: 10px;
 }
@@ -87,12 +86,12 @@ main {
     margin: 0 auto;
 	max-width: 760px;
     margin: 0 auto;
-
 }
 
 h1, h2 {
     font-family: 'Playfair Display', serif;
     text-align: center;
+    padding: 0.5rem;
 }
 .sec2 {
     padding: 3px;
@@ -104,20 +103,24 @@ h1, h2 {
     position: relative;
 }
 .herodiv img {
-    width:760px;
+    width: 100%;
 }
 .weathersum {
     position: block;
-	top: 25px;
-	right: 50px;
 	background: radial-gradient(#f0ebe1, #ffef78);
 	border: 1px solid #f0ebe1;
-	padding: 1.5rem;
+	padding: 2.5rem;
+    margin: 4%;
 	box-shadow: 0 0 10px #333;
 	opacity: .9;
+    width: 70%;
+    align-content: center;
 }
 .weathersum h2 {
     text-decoration: underline 2px #333;
+}
+.weathersum ul{
+    list-style-type: none;
 }
 .forecast {
     display: none;
@@ -148,7 +151,7 @@ p, q {
 .article img{
 align-content: center;
 justify-items: center;
-width:320px;
+max-width:320px;
 }
 .map {
     display: none;
