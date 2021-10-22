@@ -106,7 +106,7 @@ h1, h2 {
     width: 100%;
 }
 .weathersum {
-    position: block;
+    display: block;
 	background: radial-gradient(#f0ebe1, #ffef78);
 	border: 1px solid #f0ebe1;
 	padding: 2.5rem;
