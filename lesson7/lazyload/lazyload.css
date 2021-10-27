@@ -1,0 +1,12 @@
+header {
+    margin: 10px auto;
+	width: 600px;
+	padding: 10px;
+    display: grid;
+	grid-template-columns: 1fr;
+	grid-gap: 10px;
+}
+
+h2 {
+	grid-column: 1;
+}
