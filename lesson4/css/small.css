@@ -105,8 +105,21 @@ footer p {
     color: #ffef78;
     font-family: 'Playfair Display', serif;
 }
+#gallerypage p{
+    text-align: left;
+    font-size: .7em;
+}
+#gallery {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin:0 auto;
+    padding: 20px;
+}
 
-
+ h1 {
+    text-align: left;
+    margin-left: 25px;
+}
 
 
 
