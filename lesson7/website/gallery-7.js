@@ -24,3 +24,17 @@ if('IntersectionObserver' in window) {
     loadImages(img);
   });
 }
+
+let timePassed = 0;
+const currDate = new Date();
+if (localStorage.getItem("prevDate")) {
+  const currTime = currDate.getTime();
+  const prevDate = new Date(localStorage.getItem("prevDate"));
+  const prevTime = prevDate.getTime();
+  timePassed = Math.round((currTime - prevTime) / (1000 * 3600 * 24));
+  localStorage.setItem("prevDate", currDate.toString());
+} else {
+  timePassed = 0;
+  localStorage.setItem("prevDate", currDate.toString());
+}
+document.getElementById("timePassed").innerHTML=timePassed;
