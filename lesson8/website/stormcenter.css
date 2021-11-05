@@ -1,0 +1,102 @@
+/*MAIN*/
+main {
+    padding: 0 2%;
+    min-height: 20rem;
+}
+main h1{
+    color: #01263d;
+    font-size: 1.9rem;
+}
+/*FORM*/
+form {
+    border: 4px outset #628fa6;
+    margin: 50px;
+    margin-left: 0;
+    border-radius: 3px;
+    padding: 5px;
+    background-color: white;
+}
+form fieldset{
+    margin: 2rem 0;
+    border-top: 2px solid #628fa6;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    padding: .5rem 2%;
+}
+form legend {
+    color: #628fa6;
+    margin: 0 1rem;
+    padding: 0 .5rem;
+    font-size: 1.1rem;
+}
+form label.top{
+    
+}
+
+form label.top, form div{
+    display: block;
+    padding-top: 1rem;
+    color: #01263d;
+    font-size: 1rem;
+
+}
+form label.top input, form label.top select{
+    -webkit-appearance: none;
+    display: block;
+    font-size: 1rem;
+    border: solid  1px #999;
+    border-radius: 4px;
+    padding: .75rem;
+    color: #555;
+    width: 100%;
+    max-width: 20rem;
+    background-color: rgba(94, 92, 88, 0.06);
+
+}
+form label.range{
+    display: block;
+    padding-top: 1rem;
+    color: #01263d;
+    font-size: 1rem;
+
+}
+
+
+form label.sbs{
+    display: block;
+    padding: .75rem 0;
+    color: #555;
+}
+
+form input.submitBtn{
+    border:1px solid #555;
+    background-color: #628fa6;
+    color: white;
+    border-radius: 2rem;
+    padding: .75rem 1.5rem;
+    margin: 0 0 2rem 2%;
+    width: 96%;
+    max-width: 20rem;
+}
+
+#multiLineInput{
+    width: 96%;
+    max-width: 20rem;
+    background-color: rgba(94, 92, 88, 0.06);
+}
+
+form label.top input:required{
+    border-left: indianred solid 3px;
+}
+form label.top input:required:valid{
+    border-left: seagreen solid 3px;
+}
+
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
