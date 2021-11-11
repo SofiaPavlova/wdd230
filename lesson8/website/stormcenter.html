@@ -42,8 +42,7 @@
             <form method="get" action="thanks.html" onSubmit="return check_Alpha(this)">
             <fieldset>
                 <legend>Personal Information</legend>
-               <label class="top">First Name* <input type="text" name="fname" required></label>
-               <label class="top">Last Name* <input type="text" name="lname" required></label>
+               <label class="top">Full Name* <input type="text" name="fname" required></label>
                <label class="top">Email* <input type="email" name="email" placeholder="someone@gmail.com" required></label>
                <label class="top">Phone* <input type="tel" name="phone" placeholder="1235551234" required></label>
                <label class="top">Zip Code* <input type="text" inputmode="numeric" name="zipcode" placeholder="123345" required></label>
@@ -60,7 +59,7 @@
                     <option value="tornado">Tornado</option></select></label>
 
                     <label class="range" for="rating">Storm Severity: &nbsp;&nbsp;&nbsp;
-                       <br> <input type="range" id="rating" value="5" min="1" max="10" step="1" list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+                       <br> <input type="range" id="rating" value="5" min="1" max="10" step="1" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
                         <span id="ratingvalue">5</span>
                     </label>
    

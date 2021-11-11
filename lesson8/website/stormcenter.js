@@ -10,18 +10,12 @@ function selectResponse() {
 }
 
 
-  function check_Alpha(letters){
-    let regex = /[a-zA-Z]{5,30}/;
-    if (regex.test(letters.fname.value) == false){
+  function check_Alpha(letters) {
+    //let regex = /[a-zA-Z]{5,30}/;
+    let regex = /\d+/;
+    if (regex.test(letters.name.value) == true) {
       alert("Your full name should have more than 5 characters and only letters");
-      console.log("It worked")
-      letters.fname.focus();
+      letters.name.focus();
       return false;
     }
-    if(letters.fname.value == " "){
-      alert("Name Field cannot be left empty");
-      letters.fname.focus();
-      return false;
-    }
-    return true;
   }

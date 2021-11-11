@@ -26,10 +26,10 @@ form fieldset{
     padding: .5rem 2%;
 }
 form legend {
-    color: #628fa6;
+    color: #01263d;
     margin: 0 1rem;
     padding: 0 .5rem;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
 }
 
 form label.top, form div{
@@ -69,7 +69,7 @@ form label.sbs{
 
 form input.submitBtn{
     border:1px solid #555;
-    background-color: #628fa6;
+    background-color: #01263d;
     color: white;
     border-radius: 2rem;
     padding: .75rem 1.5rem;
