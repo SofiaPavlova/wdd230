@@ -72,9 +72,8 @@ nav ul li a:hover{
     color: black;
 }
 nav ul li.active a {
-    background-color: #f0ebe1;
+    background-color: #ffef78;
     color: #01263d;
-    text-decoration: underline;
     
 }
 

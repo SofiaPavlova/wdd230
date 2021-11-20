@@ -45,9 +45,18 @@ padding: .8rem 1rem;
 
 .grid-col p {
     border-radius: 100px;
-	padding: 0.25rem;
+	padding: 0;
 
 }
+.weedD {
+    padding: .25rem;
+    background-color: #01263d;
+    color:white;
+}
+.weekT {
+    margin-bottom: 15px;
+}
+
 .col-head {
 	display: block;
 	padding: 5px;
