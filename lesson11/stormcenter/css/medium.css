@@ -1,0 +1,36 @@
+@media only screen and (min-width: 37.5em) {
+heading img {
+    width: 128px;
+}
+nav button {
+    display: none;
+}
+nav ul.hide {
+    display: block;
+}
+nav ul {
+    margin-left: 2%;
+}
+nav ul li {
+    float: left;
+}
+nav ul li a {
+border: none;
+border-right: 1px solid white;
+padding: .8rem 1rem;
+}
+
+#gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin:0 auto;
+}
+ #gallerypage h1{
+    text-align: center;
+}
+#gallerypage p{
+    text-align: left;
+    font-size: .8em;
+    
+}
+}

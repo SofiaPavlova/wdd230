@@ -1,0 +1,30 @@
+@media only screen and (min-width: 60em) {
+    nav ul li a {
+        padding: .6rem 1rem;
+    }
+    main {
+       max-width: 1000px;
+    }
+    #gallery {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin:0 auto;
+    }
+    #gallery h1 {
+        text-align: center;
+    }
+    #gallery picture{ 
+        padding: 8px;
+    }
+    #gallery .hover:hover{
+        box-shadow:  0 3px 10px rgb(0 0 0 / 0.5);
+    }
+    #gallery .hover{
+        padding:5px;
+    }
+    #gallerypage p{
+        text-align: left;
+        font-size: 1em;
+    }
+    
+}

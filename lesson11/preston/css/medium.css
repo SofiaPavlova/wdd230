@@ -1,0 +1,91 @@
+@media only screen and (min-width: 37.5em) {
+heading img {
+    width: 128px;
+}
+nav button {
+    display: none;
+}
+nav ul.hide {
+    display: block;
+}
+nav ul {
+    margin-left: 2%;
+}
+nav ul li {
+    float: left;
+}
+nav ul li a {
+border: none;
+border-right: 1px solid white;
+padding: .8rem 1rem;
+}
+.weathersum {
+        position: absolute;
+    left: 50px;
+	top: 25px;
+	background: radial-gradient(#f0ebe1, #ffef78);
+	border: 1px solid #f0ebe1;
+	padding: 1.5rem;
+	box-shadow: 0 0 10px #333;
+	opacity: .9;
+    width: 30%;
+}
+.forecast {
+    display: block;
+}
+.grid { 
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(50px,1fr));
+}
+.grid-col {
+	background-color: #628fa6;
+    border: 1px solid white;
+	text-align: center;
+}
+
+.grid-col p {
+    border-radius: 100px;
+	padding: 0;
+
+}
+.weedD {
+    padding: .25rem;
+    background-color: #01263d;
+    color:white;
+}
+.weekT {
+    margin-bottom: 15px;
+}
+
+.col-head {
+	display: block;
+	padding: 5px;
+	border-bottom: 1px solid white;
+    background-color:#01263d ;
+    color: white;
+	text-align: center;
+}
+.article img{
+    float: right;
+    padding: 7px;
+}
+.article p {
+    text-align: left;
+}
+.map {
+    display: block;
+}
+.contact img {
+    float: left;
+    margin-right: 15px;
+    margin-left: 25px;
+}
+.contact p {
+    text-align: left;
+    padding: 7px;
+}
+.social {
+    text-align: left;
+
+}
+}

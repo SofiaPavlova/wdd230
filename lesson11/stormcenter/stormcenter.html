@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <meta name="description" content="WDD 230 Weather Website Storm Center">
+
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="stormcenter.css">
+
+
+    <script defer src="stormcenter.js"></script>
+
+</head>
+<body>
+    <header>
+            <picture id="logomain">
+                <img src="IMG_3899.PNG" alt="The weather logo" width="128">
+            </picture>
+            <section class="headings">
+            <h1>The Weather Mood</h1>
+            <div>we share the news for your good</div>
+            </section>
+    </header>
+        <nav class="clearfix">
+            <button onclick="toggleMenu()">&#9776;</button>
+            <ul id="primaryNav" class="hide">
+                <li><a href="../../lesson11/home/index.html">Home</a></li>
+            <li><a href="../../lesson11/preston/preston.html">Preston</a></li>
+            <li><a href="">Soda Springs</a></li>
+            <li><a href="">Fish Haven</a></li>
+            <li class="active"><a href="../../lesson11/stormcenter/stormcenter.html">Storm Center</a></li>
+            <li><a href="../../lesson11/gallery/gallery.html">Gallery</a></li>
+            </ul>
+        </nav>
+        <main>
+            <h1>Let us know about any storms in your area:</h1>
+            <form method="get" action="thanks.html" onSubmit="return check_Alpha(this)">
+            <fieldset>
+                <legend>Personal Information</legend>
+               <label class="top">Full Name* <input type="text" name="fname" required></label>
+               <label class="top">Email* <input type="email" name="email" placeholder="someone@gmail.com" required></label>
+               <label class="top">Phone* <input type="tel" name="phone" placeholder="1235551234" required></label>
+               <label class="top">Zip Code* <input type="text" inputmode="numeric" name="zipcode" placeholder="123345" required></label>
+            </fieldset>
+            <fieldset>
+                <legend>Storm Description</legend>
+                <label class="top">Storm Date:<input type="date" name="stormDate"></label>
+                <label class="top">Storm Type:<select name="stormType">
+                    <option value="">Please Select &#9662;</option>
+                    <option value="flood">Flash Flood</option>
+                    <option value="hail">Hail</option>
+                    <option value="hurricane">Hurricane</option>
+                    <option value="thunderstorm">Thunderstorm</option>
+                    <option value="tornado">Tornado</option></select></label>
+
+                    <label class="range" for="rating">Storm Severity: &nbsp;&nbsp;&nbsp;
+                       <br> <input type="range" id="rating" value="5" min="1" max="10" step="1" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+                        <span id="ratingvalue">5</span>
+                    </label>
+   
+
+                    <label class="top">Storm Region:<select name="stormRegion">
+                        <option value="">Select Region... &#9662;</option>
+                        <option value="preston">Preston</option>
+                        <option value="sodasprings">Soda Springs</option>
+                        <option value="fishhaven">Fish Haven</option>
+                        </select></label>
+                        </fieldset>
+            <fieldset>
+                <legend>Additional Information</legend>
+                <div>User in-danger level:</div> 
+                <label class="sbs"><input type="radio" name="in-danger" value="yes"> Yes</label>
+                <label class="sbs"><input type="radio" name="in-danger" value="maybe"> Maybe</label>
+                <label class="sbs"><input type="radio" name="in-danger" value="no"> No</label>
+
+                
+                <div>Additional Information:</div> 
+                <label for="multiLineInput">
+                    <textarea rows="5" cols="50" id="multiLineInput" placeholder="type here..."></textarea>
+                  </label> 
+            </fieldset>
+
+
+            <input type="submit" value = "Send my from" class="submitBtn">
+
+        </form>
+        </main>
+        <footer>
+            <p>&copy;<span class="copyrightyear"></span> | Sofia Pavlova | <a class="footerlink" href="https://www.byui.edu/online" target="_blank">BYUI Online Learning</a></p>
+            <p><span id="modify"></span></p>
+        </footer>
+    </body>
+    </html>

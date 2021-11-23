@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <meta name="description" content="WDD 230 Weather Website Gallery">
+
+    <link rel="stylesheet" href="../stormcenter/css/small.css">
+    <link rel="stylesheet" href="../stormcenter/css/medium.css">
+    <link rel="stylesheet" href="../stormcenter/css/large.css">
+    <link rel="stylesheet" href="../stormcenter/css/normalize.css">
+
+    <script defer src="gallery.js"></script>
+</head>
+<body>
+    <header>
+            <picture id="logomain">
+                <img src="../stormcenter/IMG_3899.PNG" alt="The weather logo" width="128">
+            </picture>
+            <section class="headings">
+            <h1>The Weather Mood</h1>
+            <div>we share the news for your good</div>
+            </section>
+    </header>
+        <nav class="clearfix">
+            <button onclick="toggleMenu()">&#9776;</button>
+            <ul id="primaryNav" class="hide">
+                <li><a href="../../lesson11/home/index.html">Home</a></li>
+                <li><a href="../../lesson11/preston/preston.html">Preston</a></li>
+                <li><a href="">Soda Springs</a></li>
+                <li><a href="">Fish Haven</a></li>
+                <li><a href="../../lesson11/stormcenter/stormcenter.html">Storm Center</a></li>
+                <li class="active"><a href="../../lesson11/gallery/gallery.html">Gallery</a></li>
+            </ul>
+        </nav>
+<main id="gallerypage">
+    <h1>Weather Gallery</h1>
+    <section id="gallery">
+        <div class="hover">
+        <picture>
+            <img src="images/placeholder.jpg"
+                 data-src="images/lightning.jpg"
+                 alt="lightning"> 
+                </picture>
+        <article>
+            <p>Lightning in Fish Haven last night.
+            </p>
+        </article> 
+    </div>
+    <div class="hover">
+        <picture>
+            <img src="images/placeholder.jpg"
+                 data-src="images/wind.jpg"
+                 alt="rain">
+                </picture>
+                 <article>
+                    <p>Strong wind in Preston.
+                    </p>
+                </article>  
+    </div> 
+    <div class="hover">
+        <picture>
+            <img src="images/placeholder.jpg"
+                 data-src="images/sun.jpg" 
+                 alt="sun">
+                </picture> 
+                 <article>
+                    <p>Sunny weekend in Soda Springs.
+                    </p>
+                </article>  
+    </div>
+    <div class="hover">
+        <picture>
+            <img src="images/placeholder.jpg"
+                 data-src="images/snow.jpg" 
+                 alt="snow">
+                </picture> 
+                 <article>
+                    <p>Fish Haven expects first snow in early December.
+                    </p>
+                </article>
+    </div>  
+    <div class="hover">
+        <picture>
+            <img src="images/placeholder.jpg"
+                 data-src="images/dark.jpg" 
+                 alt="tornado and lightning">
+                </picture>   
+                 <article>
+                    <p>Few tornadoes should occur Wednesday in Soda Springs.
+                    </p>
+                </article>
+                </div>
+                <div class="hover">
+        <picture>
+            <img src="images/placeholder.jpg"
+                 data-src="images/sunny.jpg" 
+                 alt="blue sky">
+                </picture> 
+                 <article>
+                    <p>Clear weather expected in Fish Haven.
+                    </p>
+                </article> 
+            </div>
+            <div class="hover">
+        <picture>
+            <img src="images/placeholder.jpg"
+                 data-src="images/fog.jpg" 
+                 alt="fog">
+                </picture>  
+                 <article>
+                    <p>There will be heavy fog in Preston at Friday night.
+                    </p>
+                </article> 
+                </div>
+                <div class="hover">
+        <picture>
+            <img src="images/placeholder.jpg"
+                 data-src="images/rain.jpg" 
+                 alt="rain">
+                </picture> 
+                 <article>
+                    <p>Rainy start to next week in Preston.
+                    </p>
+                </article>  
+                </div>
+                <div class="hover">
+        <picture>
+            <img src="images/placeholder.jpg"
+                 data-src="images/cloudy.jpg" 
+                 alt="clouds">
+                </picture> 
+                 <article>
+                    <p>Monday morning will be cloudy in Soda Springs.
+                    </p>
+                </article> 
+            </div>   
+</section>
+</main>
+    <footer>
+        <p>&copy;<span class="copyrightyear"></span> | Sofia Pavlova | <a class="footerlink" href="https://www.byui.edu/online" target="_blank">BYUI Online Learning</a></p>
+        <p><span id="modify"></span></p>
+        <p>Time passed since the last visit: <span id="timePassed"></span>  days</p>
+    </footer>
+</body>
+</html>
