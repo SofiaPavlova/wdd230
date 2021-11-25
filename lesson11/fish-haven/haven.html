@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fish Haven</title>
+    <meta name="description" content="WDD 230 Weather Website Fish Haven Page">
+
+    <link rel="stylesheet" href="../preston/css/small.css">
+    <link rel="stylesheet" href="../preston/css/medium.css">
+    <link rel="stylesheet" href="../preston/css/large.css">
+    <link rel="stylesheet" href="../preston/css/normalize.css">
+    <link rel="stylesheet" href="home.css">
+
+    <script defer src="js/haven.js"></script>
+
+</head>
+<body>
+    <header>
+            <picture id="logomain">
+                <img src="../stormcenter/IMG_3899.PNG" alt="The weather logo" width="128">
+            </picture>
+            <div class="headings">
+            <h1>The Weather Mood</h1>
+            <div>we share the news for your good</div>
+            </div>
+    </header>
+        <nav class="clearfix">
+            <button onclick="toggleMenu()">&#9776;</button>
+            <ul id="primaryNav" class="hide">
+                <li><a href="../home/index.html">Home</a></li>
+            <li><a href="../../lesson11/preston/preston.html">Preston</a></li>
+            <li><a href="../soda-springs/springs.html">Soda Springs</a></li>
+            <li class="active"><a href="../fish-haven/haven.html">Fish Haven</a></li>
+            <li><a href="../../lesson11/stormcenter/stormcenter.html">Storm Center</a></li>
+            <li><a href="../../lesson11/gallery/gallery.html">Gallery</a></li>
+            </ul>
+        </nav>
+        <main>
+            <h1 class="preston">Fish Haven</h1>
+            <div class="herodiv">
+                    <img src="images/fishh.png" alt="hero image">
+            <div class="weathersum">
+                 <h2>Weather Summary</h2>
+                 <ul> 
+                    <li>Currently: <span id="currently"></span>&deg; F</li>
+                    <li>High: <span id="current-temp"></span>&deg; F</li>
+                    <li>Wind Chill: <span id="windChill"></span>&deg; F</li> 
+                    <li>Humidity: <span id="humidity"></span>%</li>
+                    <li>Wind Speed: <span id="wind-speed"></span> mph</li> 
+             </ul> 
+            </div>
+    </div>
+        <div> 
+            <h2 class="5dayforecast">5 Day Forecast</h2>
+            <div class="grid">
+                <div class="grid-col">
+                   <div class="weedD"><span id="dayofweek1"></span> </div>
+                  <div><span id="imagesrc1"></span> &nbsp; 
+                    <img src="img1" alt="forecas-img" id="icon1"></div>
+                    <div class="weekT"> <span id="forecast1"></span> &deg;F</div>
+                </div> 
+                <div class="grid-col">
+                    <div class="weedD"><span id="dayofweek2"></span></div>
+                        <div><span id="imagesrc2"></span> &nbsp; 
+                       <img src="img2" alt="forecas-img-2" id="icon2"></div>
+                       <div><span id="forecast2"></span> &deg;F</div>
+                </div>
+                <div class="grid-col">
+                    <div class="weedD"><span id="dayofweek3"></span></div>
+                    <div><span id="imagesrc3"></span> &nbsp; 
+                   <img src="img3" alt="forecas-img-3" id="icon3"></div>
+                    <div><span id="forecast3"></span> &deg;F</div>
+                </div>
+                <div class="grid-col">
+                    <div class="weedD"><span id="dayofweek4"></span></div>
+                    <div><span id="imagesrc4"></span> &nbsp; 
+                       <img src="img4" alt="forecas-img-4" id="icon4"></div>
+                       <div><span id="forecast4"></span> &deg;F</div>
+                </div>
+                <div class="grid-col">
+                    <div class="weedD"><span id="dayofweek5"></span></div>
+                    <div><span id="imagesrc5"></span> &nbsp; 
+                       <img src="img5" alt="forecas-img-5" id="icon5"></div>
+                       <div><span id="forecast5"></span> &deg;F</div>
+                </div>
+            </div>
+        </div>
+        <section class="events">
+
+        </section>
+        <div class="article">
+         <h2 class="articlename"> Landing a Lunker</h2>
+         <img src="images/fishing.png" alt="Two man fishing">
+         <p>Early summer is prime time for chasing smallmouth bass across most of their range. Anglers—especially those who fish lakes—may encounter as many as three distinct periods of activity among smallmouths as the water continues to warm toward summer temperatures. So, the key to landing bronzebacks in the early summer is flexibility and a willingness to try different tactics while figuring out what works on any given day. Here are half a dozen tips for landing a lunker in the early summer months. 
+            When the water starts to warm up, smallmouth make their way into shallows and flats as they prepare to spawn. They are searching for areas with a gravel or sandy bottom in three to fifteen feet of water in which to build nests. Bigger smallmouth tend to nest at the deeper end of this range and near or under structure like branches, trees, or fallen logs. Where water is flat and smallmouth, topwater baits work really well to draw them off their nests. If you’re fishing water that’s deeper than six feet though, switch to a prop or rattle bait and twitch over the bottom, reeling in just a few inches at a time. 
+         <br>Source: <i> https://stepoutside.org/article/early-summer-smallmouth-6-tips-for-landing-a-lunker/</i>
+        </p>
+        </div>
+        <div class="contact">
+            <h2>Contact Information</h2>
+            <a target="_blank" href="https://www.google.com/maps/place/%D0%A4%D0%B8%D1%88+%D0%A5%D0%B5%D0%B9%D0%B2%D0%B5%D0%BD,+%D0%90%D0%B9%D0%B4%D0%B0%D1%85%D0%BE+83287,+%D0%A1%D0%A8%D0%90/@42.0164625,-111.6710149,9.66z/data=!4m5!3m4!1s0x875415e9bdab006f:0xc1864ed86dd2b0e4!8m2!3d42.0371544!4d-111.395956?hl=ru"><img class="map" src="images/map.png" alt="fish-haven map"></a>
+            <p>🗺 30 N 1st E 
+                Fish Haven, ID 83263
+               </p>
+            <p>☎️ 999,999,9999</p>
+            <p> 📬 twmood@tws.com</p>
+            <br>
+            <div class="social">
+                <a target="_blank" href="https://www.youtube.com/"><img src="../preston/images/youtube.png" alt="YouTube icon"></a>
+                <a target="_blank" href="https://www.facebook.com/"><img src="../preston/images/facebook.png" alt="Facebook icon"></a>
+                <a target="_blank" href="https://twitter.com/?lang=ru"><img src="../preston/images/twitter.png" alt="Twitter icon"></a>
+            </div>
+            <br><br><br><br><br><br><br><br>
+        </div>
+            </main>
+            <footer>
+                <p>&copy;<span class="copyrightyear"></span> | Sofia Pavlova | <a class="footerlink" href="https://www.byui.edu/online" target="_blank">BYUI Online Learning</a> | Weather data source: <a class="footerlink" href="https://openweathermap.org/">OpenWeather</a></p>
+                <p><span id="modify"></span></p>
+            </footer>
+            <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+            <script>
+                WebFont.load({
+          google: {
+            families: [
+               'Playfair Display',
+               'Sarabun'
+            ]
+          }
+        });
+            </script>
+        </body>
+        </html>
+        

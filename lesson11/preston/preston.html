@@ -20,6 +20,8 @@
     <script defer src="js/preston.js"></script>
    
     <script defer src="js/prestonweather.js"></script>
+
+    <script defer src="js/events.js"></script>
 </head>
 <body>
     <div class="banner">
@@ -29,18 +31,18 @@
         <picture id="logomain">
              <img src="images/IMG_3899.PNG" alt="The weather logo">
         </picture>
-        <section class="headings">
+        <div class="headings">
         <h1>The Weather Mood</h1>
         <div>we share the news for your good</div>
-    </section>
+        </div>
     </header>
     <nav class="clearfix">
         <button onclick="toggleMenu()">&#9776;</button>
         <ul id="primaryNav" class="hide">
             <li><a href="../home/index.html">Home</a></li>
             <li class="active"><a href="preston.html">Preston</a></li>
-            <li><a href="">Soda Springs</a></li>
-            <li><a href="">Fish Haven</a></li>
+            <li><a href="../soda-springs/springs.html">Soda Springs</a></li>
+            <li><a href="../fish-haven/haven.html">Fish Haven</a></li>
             <li><a href="../../lesson11/stormcenter/stormcenter.html">Storm Center</a></li>
             <li><a href="../../lesson11/gallery/gallery.html">Gallery</a></li>
         </ul>
@@ -49,7 +51,7 @@
         <h1 class="preston">Preston Idaho</h1>
             <div class="herodiv">
                     <img src="images/hero.jpg" alt="hero image">
-            <section class="weathersum">
+            <div class="weathersum">
                  <h2>Weather Summary</h2>
                  <ul> 
                     <li>Currently: <span id="currently"></span>&deg; F</li>
@@ -58,7 +60,7 @@
                     <li>Humidity: <span id="humidity"></span>%</li>
                     <li>Wind Speed: <span id="wind-speed"></span> mph</li> 
              </ul> 
-        </section>
+            </div>
     </div>
         <div> 
             <h2 class="5dayforecast">5 Day Forecast</h2>
@@ -95,14 +97,25 @@
                 </div>
             </div>
         </div>
+        <section class="events">
+
+        </section>
+        
         <div class="article">
-         <h2>Article Title</h2>
+         <h2 class="articlename">Community Service</h2>
          <img src="images/articleimg.jpg" alt="young women helping old women">
-         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat quaerat tenetur quis eius fuga enim saepe blanditiis quae voluptates maxime est repellendus, sapiente veritatis illum illo commodi accusantium totam molestiae!
-         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi minima assumenda eligendi dolorem dolorum ullam, laboriosam minus, alias saepe maxime dicta reprehenderit? Ducimus alias necessitatibus expedita deleniti. Commodi, eaque rerum?
-         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse, quisquam mollitia! Minima, eveniet nemo numquam non impedit autem cum, nobis adipisci quibusdam reprehenderit, ea voluptatum facere officiis consequuntur sed sequi!Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse, quisquam mollitia! Minima, eveniet nemo numquam non impedit autem cum, nobis adipisci quibusdam reprehenderit, ea voluptatum facere officiis consequuntur sed sequi!
-         dolor sit amet consectetur adipisicing elit. Excepturi minima assumenda eligendi dolorem dolorum ullam, laboriosam minus, alias saepe maxime dicta reprehenderit? Ducimus alias necessitatibus expedita deleniti. Commodi, eaque rerum?
-        </p>
+         <p>People in need are all around you—in your own extended family, in your neighborhood and in your community. And some of the most rewarding activities your family can take part in together are those designed to help these people. The possibilities are endless, limited only by your imagination, your sensitivity to others’ needs, and your willingness to give. Even very young children can feel the joy of serving. Your whole family can feel closer to each other as you work together for a good cause and share the satisfaction that comes in helping others.
+
+            Here are some suggestions to keep in mind as you consider the kind of service you will plan:
+            
+            Carefully, even prayerfully, think about the needs of those close to you. Do not overlook those you know best. If you want to visit an elderly person, for example, remember those in your own family.
+            
+            Remember that an unneeded or unwanted service may not be a service at all. Also, keep in mind that what you would appreciate may not be what another would appreciate, or even be able to use. For example, a gift of a sack of wheat might be merely confusing to a refugee family unfamiliar with Western foods and cooking methods.
+            
+            Consider serving anonymously. This can help you and your children feel the pure joy of giving without concern for recognition or reward. Also, anonymous service is sometimes easier for others to accept. Often, though, your personal delivery of a gift will make it even more meaningful to the person who receives it.
+            <br>
+           Source: <i>https://www.churchofjesuschrist.org/study/manual/family-home-evening-resource-book/family-activities/serving-others-together?lang=eng</i>
+            </p>
         </div>
         <div class="contact">
             <h2>Contact Information</h2>

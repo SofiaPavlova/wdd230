@@ -38,12 +38,23 @@
         color: white;
         text-align: center;
     }
+    
     .article img{
         float: right;
         padding: 7px;
+        margin-right: 10px;
+        margin-left: 5px;
     }
+    .articlename{
+        padding: 10px;
+     }
     .article p {
         text-align: left;
+        margin-top:-10px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        line-height: 17pt;
     }
     .map {
         display: block;

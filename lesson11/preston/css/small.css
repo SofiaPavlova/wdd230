@@ -142,6 +142,17 @@ p, q {
     font-family: 'Sarabun', sans-serif;
     padding: 15px;
 }
+.events{
+    margin-top: 20px;
+    margin-bottom: 40px;
+   background-color:#01263d;
+   border: 2px solid  white;
+   box-shadow: 1px 1px 5px black;
+   color: white;
+}
+.events h2{
+    text-decoration: underline #628fa6;
+}
 .article {
     display:block;
     background-color: rgba(98, 143, 166, 0.2);
