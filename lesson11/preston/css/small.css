@@ -153,6 +153,10 @@ p, q {
 .events h2{
     text-decoration: underline #628fa6;
 }
+.events p{
+    padding:5px;
+    padding-bottom: 10px;
+}
 .article {
     display:block;
     background-color: rgba(98, 143, 166, 0.2);

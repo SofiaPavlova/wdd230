@@ -2,7 +2,7 @@ function toggleMenu() {
   document.getElementById("primaryNav").classList.toggle("hide");
   }
 
-const apiURL = 'https://api.openweathermap.org/data/2.5/weather?id=5607916&units=imperial&APPID=83ffc56b941a18f3b18fad10caf6dd16';
+const apiURL = 'https://api.openweathermap.org/data/2.5/weather?id=5604473&units=imperial&APPID=83ffc56b941a18f3b18fad10caf6dd16';
 fetch(apiURL)
   .then((response) => response.json())
   .then((jsObject) => {
@@ -32,7 +32,7 @@ fetch(apiURL)
   });
 
 
-const forecastapiURL = 'https://api.openweathermap.org/data/2.5/forecast?id=5607916&units=imperial&APPID=83ffc56b941a18f3b18fad10caf6dd16';
+const forecastapiURL = 'https://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&APPID=83ffc56b941a18f3b18fad10caf6dd16';
 fetch(forecastapiURL)
   .then(response => response.json())
   .then(jsObject => {
@@ -80,7 +80,15 @@ fetch(requestURL)
                 card.appendChild(h2);
 
                 let events = document.createElement ('p');
-                events.innerHTML = `${town.events}`;
+                events.innerHTML = `${town.events[0]}`;
+                card.appendChild(events);
+
+                events = document.createElement ('p');
+                events.innerHTML = `${town.events[1]}`;
+                card.appendChild(events);
+
+                events = document.createElement ('p');
+                events.innerHTML = `${town.events[2]}`;
                 card.appendChild(events);
 
                 document.querySelector('section').appendChild(card)
