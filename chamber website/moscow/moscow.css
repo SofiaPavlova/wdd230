@@ -1,0 +1,23 @@
+.sec1{
+    background-color: white;
+}
+.sec1 img{
+ float: right;
+ padding: 20px;
+ margin-top: 50px;
+}
+.sec1 h1{
+    font-size: 2.5rem;
+    font-family: 'Bebas Neue', cursive;
+    color: #457b9d;
+    text-decoration: underline 2px solid #457b9d;
+    margin-bottom:0;
+    margin: 10px;
+}
+.sec1 p{
+    font-family: 'Crimson Pro', serif;
+    font-size: 1.2rem;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}

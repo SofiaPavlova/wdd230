@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <meta name="description" content="Home page of the  Chamber of Commerce website">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Crimson+Pro:wght@300&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    
+    <script defer src="js/weather.js"></script>
+</head>
+<body>
+    <header>
+        <div>
+            <h1>Moscow Chamber of Commerce</h1>
+        </div>
+        <picture>
+            <img src="images/logo.png" alt="website logo" width="188"> 
+        </picture>
+    </header>
+    <nav class="clearfix">
+            <button onclick="toggleMenu()">&#9776;</button>
+            <ul id="primaryNav" class="hide">
+            <li class="active"><a href="home.html">Home</a></li>
+            <li><a href="../moscow/moscow.html">Moscow</a></li>
+            <li><a href="../join/join.html">Join</a></li>
+            <li><a href="../directory/directory.html">Directory</a></li>
+            <li><a href="../contact/contact.html">Contact</a></li>
+            </ul>
+    </nav>
+    <main>
+        <!--First Section-->
+        <article class="goals">
+            <img src="images/meeting.jpg" alt="business meeting">
+        <h1>Welcome</h1>
+            <p>
+                "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae." 
+
+            </p>
+        </article>
+        <!--Second Section-->
+        <div>
+            <h1 class="section-2">Local Companies</h1>
+            <div class="grid-container">
+                <div class="grid-item">
+            <img src="images/logo-design.png" alt="design complany logo" width="148"></div>
+            <div class="grid-item">
+                <img src="images/logo-tryhard.png" alt="digital marketing logo" width="148"></div>
+            <div class="grid-item">
+                <img src="images/city-park.png" alt="city park logo" width="148"></div>
+            <div class="grid-item">
+                <p>Supremum Design provides services for the development of logo design, corporate identity, brand books, corporate websites, product packaging and printing publications, as well as food stylistics, subject photography, and more.</p>
+                <p>📍 Moscow, st. Koktebelskaya, 4A</p>
+                <p>🖥  info@supremumdesign.com</p>
+                <p>☎️  +79030093599</p>
+                </div>
+                <div class="grid-item">
+                <p>Digital Marketing Agency. Provides services for web development, internet marketing, SEO, contextual advertising, SMM, content writing and website support for large and small businesses that want to develop their business more effectively on the Internet.</p>
+              <p>📍 Moscow, Partiyni lane, 329</p>
+              <p>🖥  tryhardagency.ru/</p>
+              <p>☎️  +79958981664</p>
+            </div>
+            <div class="grid-item">
+            <p>CITY PARK is a premium class residential area. Terraced development of six buildings, exploitable roofs, courtyards organized according to the principle of a private garden, provide residents with the opportunity to be closer to nature, while remaining in the center of Moscow.</p>
+            <p>📍 Moscow, st. Mantulinskaya, 7 </p>
+            <p>🖥  citypark.moscow/</p>
+            <p>☎️  +74951626142</p>
+        </div>
+        </div>
+       
+        <!--Third Section-->
+        <section class="events">
+
+        </section>
+        <div class="weathersum">
+            <h2>Weather Summary</h2>
+            <h2 class="3dayforecast">3 Day Forecast</h2>
+            <ul> 
+               <li>Currently: <span id="currently"></span>&deg; C</li>
+               <li>High: <span id="current-temp"></span>&deg; C</li>
+               <li>Humidity: <span id="humidity"></span>%</li>
+        </ul>  
+        <div class="grid">
+            <div class="grid-col">
+               <div class="weedD"><span id="dayofweek1"></span> </div>
+              <div><span id="imagesrc1"></span> &nbsp; 
+                <img src="img1" alt="forecas-img" id="icon1"></div>
+                <div class="weekT"> <span id="forecast1"></span> &deg;C</div>
+            </div> 
+            <div class="grid-col">
+                <div class="weedD"><span id="dayofweek2"></span></div>
+                    <div><span id="imagesrc2"></span> &nbsp; 
+                   <img src="img2" alt="forecas-img-2" id="icon2"></div>
+                   <div><span id="forecast2"></span> &deg;C</div>
+            </div>
+            <div class="grid-col">
+                <div class="weedD"><span id="dayofweek3"></span></div>
+                <div><span id="imagesrc3"></span> &nbsp; 
+               <img src="img3" alt="forecas-img-3" id="icon3"></div>
+                <div><span id="forecast3"></span> &deg;C</div>
+            </div>
+            </div>
+            </div>
+        <!--Fourth Section-->
+        <div class="cta">
+            <img src="images/cta.jpg" alt="CTA img">
+        </div>
+        <div class="contact">
+            <h2>Contact Information</h2>
+            <p>🗺   Moscow, st. Petrovka, 18-1
+               </p>
+            <p>☎️  999,999,9999</p>
+            <p> 📬  mscch@tws.com</p>
+        </div>
+        <br>
+    </main>
+    <footer>
+        <p>&copy;<span class="copyrightyear"></span> | Sofia Pavlova | <a class="footerlink" href="https://www.byui.edu/online" target="_blank">BYUI Online Learning</a> | Weather data source: <a class="footerlink" href="https://openweathermap.org/">OpenWeather</a></p>
+        <div class="social">
+            <a target="_blank" href="https://www.youtube.com/"><img src="images/youtube.png" alt="YouTube icon"></a>
+            <a target="_blank" href="https://www.facebook.com/"><img src="images/facebook.png" alt="Facebook icon"></a>
+            <a target="_blank" href="https://twitter.com/?lang=ru"><img src="images/twitter.png" alt="Twitter icon"></a>
+        </div>
+    </footer>
+</body>
+</html>

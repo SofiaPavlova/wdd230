@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <meta name="description" content="Home page of the  Chamber of Commerce website">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Crimson+Pro:wght@300&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../home/css/small.css">
+    <link rel="stylesheet" href="../home/css/medium.css">
+    <link rel="stylesheet" href="../home/css/large.css">
+    <link rel="stylesheet" href="../home/css/normalize.css">
+    <link rel="stylesheet" href="contact.css">
+    
+    <script defer src=""></script>
+</head>
+<body>
+    <header>
+        <div>
+            <h1>Moscow Chamber of Commerce</h1>
+        </div>
+        <picture>
+            <img src="../home/images/logo.png" alt="website logo" width="188"> 
+        </picture>
+    </header>
+    <nav class="clearfix">
+            <button onclick="toggleMenu()">&#9776;</button>
+            <ul id="primaryNav" class="hide">
+            <li><a href="../home/home.html">Home</a></li>
+            <li><a href="../moscow/moscow.html">Moscow</a></li>
+            <li><a href="../join/join.html">Join</a></li>
+            <li><a href="../directory/directory.html">Directory</a></li>
+            <li class="active"><a href="contact.html">Contact</a></li>
+            </ul>
+    </nav>
+    <main>
+        <div class="grid-cont">
+            <div class="it1">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2244.6924626929554!2d37.615593050919486!3d55.763844398513136!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54a43a7f41079%3A0xfbf86564af2663f6!2z0J_QtdGC0YDQvtCy0LrQsCDRg9C7LiwgMTgsINCc0L7RgdC60LLQsCwgMTI3MDUx!5e0!3m2!1sru!2sru!4v1638882037442!5m2!1sru!2sru" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+    <div class="cinfo it2">
+        <h1>Request a call from us:</h1>
+    <form method="get">
+    <fieldset>
+       <label class="top">First Name* <input type="text" name="fname" required></label>
+       <label class="top">Cell Phone* <input type="tel" name="phone" placeholder="1235551234" required></label>
+ 
+       <input type="submit" value = "Send" class="submitBtn">
+    </fieldset>
+        </form>
+        </div>
+        <div class="it3 cinfo">
+            <h1>Contact Information</h1>
+            <p>🗺   Moscow, st. Petrovka, 18-1</p>
+            <p>☎️  999,999,9999</p>
+            <p> 📬  mscch@tws.com</p>
+        </div>
+    </main>
+    <footer>
+        <p>&copy;<span class="copyrightyear"></span> | Sofia Pavlova | <a class="footerlink" href="https://www.byui.edu/online" target="_blank">BYUI Online Learning</a> | Weather data source: <a class="footerlink" href="https://openweathermap.org/">OpenWeather</a></p>
+        <div class="social">
+            <a target="_blank" href="https://www.youtube.com/"><img src="../home/images/youtube.png" alt="YouTube icon"></a>
+            <a target="_blank" href="https://www.facebook.com/"><img src="../home/images/facebook.png" alt="Facebook icon"></a>
+            <a target="_blank" href="https://twitter.com/?lang=ru"><img src="../home/images/twitter.png" alt="Twitter icon"></a>
+        </div>
+    </div>
+    </footer>
+</body>
+</html>

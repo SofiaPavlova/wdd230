@@ -1,0 +1,89 @@
+main h1{
+    font-family: 'Bebas Neue', cursive;
+    color: #353535;
+    margin-top: 30px;
+    font-size: 2.3rem;
+    text-decoration: underline 2px #353535;
+}
+form {
+    margin: 40px;
+    margin-left: 0;
+    padding: 5px;
+    background-color: white;
+    box-shadow: 0 0 5px black;
+    width: 60%;
+}
+form fieldset{
+    margin: 2rem 0;
+    border-top: 4px double #353535;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    padding: .5rem 2%;
+}
+form legend {
+    color: #353535;
+    margin: 0 1rem;
+    padding: 0 .5rem;
+    font-size: 1.2rem;
+    font-family: 'Bebas Neue', cursive;
+}
+
+form label.top, form div{
+    display: block;
+    padding-top: 1rem;
+    color: #457b9d;
+    font-size: 1rem;
+    font-family: 'Crimson Pro', serif;
+}
+form label.top input, form label.top select{
+    -webkit-appearance: none;
+    display: block;
+    font-size: 1rem;
+    border: solid  1px #999;
+    border-radius: 4px;
+    padding: .75rem;
+    color: #555;
+    width: 100%;
+    max-width: 20rem;
+    background-color: rgba(94, 92, 88, 0.06);
+
+}
+form label.range{
+    display: block;
+    padding-top: 1rem;
+    color: #01263d;
+    font-size: 1rem;
+}
+
+
+form label.sbs{
+    display: block;
+    padding: .75rem 0;
+    color: #555;
+}
+
+form input.submitBtn{
+    border:1px solid #555;
+    background-color: #457b9d;
+    color: white;
+    border-radius: 4px;
+    padding: .75rem 1.5rem;
+    margin: 0 0 2rem 2%;
+    width: 96%;
+    max-width: 20rem;
+}
+
+#multiLineInput{
+    width: 96%;
+    max-width: 20rem;
+    background-color: rgba(94, 92, 88, 0.06);
+    font-family: 'Crimson Pro', serif;
+}
+
+form label.top input:required{
+    border-bottom: indianred solid 3px;
+}
+form label.top input:required:valid{
+    border-left: seagreen solid 3px;
+}

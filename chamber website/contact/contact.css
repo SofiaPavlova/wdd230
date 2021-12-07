@@ -1,0 +1,61 @@
+
+main{
+    padding: 50px;
+}
+.grid-cont{
+    display: grid;
+    grid-gap: 10px;
+    padding: 5px;
+}
+.it1 {
+    grid-row: 1 / 4;
+  }
+  .it2 {
+    grid-row: 1 / 2;
+  }
+  .it2 {
+    grid-row: 2 / 4;
+  }
+.cinfo h1 {
+    font-size: 2rem;
+    font-family: 'Bebas Neue', cursive;
+    color: #457b9d;
+}
+.cinfo{
+    text-align: left;
+    margin-left: -200px;
+    margin-top: -15px;
+}
+/*FORM*/
+form {
+    background-color: white;
+    max-width: 40rem;
+}
+form label.top {
+    display: block;
+    padding-top: .5rem;
+    color: #457b9d;
+    font-size: 1rem;
+    font-family: 'Crimson Pro', serif;
+}
+form label.top input, form label.top select{
+    display: block;
+    font-size: 1rem;
+    border: solid  1px #999;
+    border-radius: 2px;
+    padding: .75rem;
+    color: #555;
+    width: 100%;
+    max-width: 20rem;
+    background-color: rgba(94, 92, 88, 0.06);
+}
+form input.submitBtn{
+    border:1px solid #555;
+    background-color: #457b9d;
+    color: white;
+    border-radius: 4px;
+    padding: 5px;
+    margin: 5px;
+    width:100%;
+    max-width: 5rem;
+}

@@ -1,0 +1,6 @@
+nav button {
+    display: none;
+}
+nav ul.hide {
+    display: block;
+}

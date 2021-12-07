@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join</title>
+    <meta name="description" content="Home page of the  Chamber of Commerce website">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Crimson+Pro:wght@300&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../home/css/small.css">
+    <link rel="stylesheet" href="../home/css/medium.css">
+    <link rel="stylesheet" href="../home/css/large.css">
+    <link rel="stylesheet" href="../home/css/normalize.css">
+    <link rel="stylesheet" href="join.css">
+    
+    <script defer src="js/weather.js"></script>
+</head>
+<body>
+    <header>
+        <div>
+            <h1>Moscow Chamber of Commerce</h1>
+        </div>
+        <picture>
+            <img src="../home/images/logo.png" alt="website logo" width="188"> 
+        </picture>
+    </header>
+    <nav class="clearfix">
+            <button onclick="toggleMenu()">&#9776;</button>
+            <ul id="primaryNav" class="hide">
+            <li><a href="../home/home.html">Home</a></li>
+            <li><a href="../moscow/moscow.html">Moscow</a></li>
+            <li class="active"><a href="join.html">Join</a></li>
+            <li><a href="../directory/directory.html">Directory</a></li>
+            <li><a href="../contact/contact.html">Contact</a></li>
+            </ul>
+    </nav>
+    <main>
+        <h1>Fill out the form to join:</h1>
+            <form method="get" action="thanks.html" onSubmit="return check_Alpha(this)">
+            <fieldset>
+                <legend>Personal Information</legend>
+               <label class="top">First Name* <input type="text" name="fname" required></label>
+               <label class="top">Last Name* <input type="text" name="lname" required></label>
+               <label class="top">Title <input type="text" name="title"></label>
+               <label class="top">Email* <input type="email" name="email" placeholder="someone@gmail.com" required></label>
+               <label class="top">Cell Phone* <input type="tel" name="phone" placeholder="1235551234"></label>
+            </fieldset>
+            <fieldset>
+                <legend>Business Information</legend>
+                <label class="top">Business Name* <input type="text" name="fname" required></label>
+               <label class="top">Business Address <input type="text" name="lname"></label>
+               <label class="top">Business Website <input type="url" name="website"></label>
+            </fieldset>
+            <fieldset>
+                <legend>Membership level</legend>
+                <label class="sbs"><input type="radio" name="membership" value="non-profit"> Non-Profit($100)</label>
+                <label class="sbs"><input type="radio" name="membership" value="bronze"> Bronze ($200)</label>
+                <label class="sbs"><input type="radio" name="membership" value="silver"> Silver ($400)</label>
+                <label class="sbs"><input type="radio" name="membership" value="gold"> Gold ($1000)</label>
+            </fieldset>
+
+            <input type="submit" value = "Send my from" class="submitBtn">
+        </form>
+    </main>
+    <footer>
+        <p>&copy;<span class="copyrightyear"></span> | Sofia Pavlova | <a class="footerlink" href="https://www.byui.edu/online" target="_blank">BYUI Online Learning</a> | Weather data source: <a class="footerlink" href="https://openweathermap.org/">OpenWeather</a></p>
+        <div class="social">
+            <a target="_blank" href="https://www.youtube.com/"><img src="../home/images/youtube.png" alt="YouTube icon"></a>
+            <a target="_blank" href="https://www.facebook.com/"><img src="../home/images/facebook.png" alt="Facebook icon"></a>
+            <a target="_blank" href="https://twitter.com/?lang=ru"><img src="../home/images/twitter.png" alt="Twitter icon"></a>
+        </div>
+    </footer>
+</body>
+</html>
