@@ -1,8 +1,8 @@
 {
-    "cards": [
+    "items": [
       {
         "name": "Trehgornaya Manufactura",
-        "imageurl": "https://ru.wikipedia.org/wiki/%D0%A2%D1%80%D1%91%D1%85%D0%B3%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_%D0%BC%D0%B0%D0%BD%D1%83%D1%84%D0%B0%D0%BA%D1%82%D1%83%D1%80%D0%B0#/media/%D0%A4%D0%B0%D0%B9%D0%BB:%D0%A2%D1%80%D1%91%D1%85%D0%B3%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_%D0%BC%D0%B0%D0%BD%D1%83%D1%84%D0%B0%D0%BA%D1%82%D1%83%D1%80%D0%B0_(%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0).png",
+        "imageurl": "https://upload.wikimedia.org/wikipedia/ru/5/5f/%D0%A2%D1%80%D1%91%D1%85%D0%B3%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_%D0%BC%D0%B0%D0%BD%D1%83%D1%84%D0%B0%D0%BA%D1%82%D1%83%D1%80%D0%B0_%28%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0%29.png",
         "web": "https://www.trekhgorka.ru/",
         "address": "Moscow, Rochdelskaya, 15",
         "phone": "+7 (495) 730-63-11"
@@ -16,14 +16,14 @@
       },
       {
         "name": "Aviaexport",
-        "imageurl": "http://www.aviaexport.com/images/logo_ru.png",
+        "imageurl": "https://topazlab.ru/wp-content/uploads/2017/04/aviaexport.png",
         "web": "http://www.aviaexport.com/",
         "address": "Moscow, Obrazcova st, 21A",
         "phone": "+7(495) 737-31-50"
       },
       {
         "name": "Tegola Group",
-        "imageurl": "https://tegola.ru/images/logo.svg",
+        "imageurl": "https://bimstandardfamily.ru/wp-content/uploads/tegola_logo.png",
         "web": "https://tegola.ru/",
         "address": "Moscow, Volgogradski prospect, 32",
         "phone": "+7 (495) 925-01-20"
