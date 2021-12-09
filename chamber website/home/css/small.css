@@ -71,7 +71,7 @@ article img {
     padding: 20px;
 }
 article p{
-    text-align: left;
+    text-align: center;
     font-family: 'Crimson Pro', serif;
     font-size: 1.4rem;
     margin: 2px;
@@ -154,6 +154,7 @@ article h1{
       margin-left: 50px;
   }
   .contact{
+    margin-top: 30px;
       font-size: 1.7rem;
       text-align: left;
       border: 2px solid #e63946;
@@ -177,6 +178,8 @@ footer a:hover {
     color: black;
 }
 .social img {
-    border: 1px solid #d9d9d9;
+    box-shadow: 1px 1px 8px .5px black;
+    border-radius: 8px;
     width: 38px;
+    margin: 2px;
 }
