@@ -30,19 +30,31 @@
     <nav class="clearfix">
             <button onclick="toggleMenu()">&#9776;</button>
             <ul id="primaryNav" class="hide">
-            <li><a href="home.html">Home</a></li>
-            <li><a href="">Moscow</a></li>
+            <li><a href="../home/home.html">Home</a></li>
+            <li><a href="../moscow/moscow.html">Moscow</a></li>
             <li class="active"><a href="join.html">Join</a></li>
-            <li><a href="">Directory</a></li>
-            <li><a href="">Contact</a></li>
+            <li><a href="../directory/directory.html">Directory</a></li>
+            <li><a href="../contact/contact.html">Contact</a></li>
             </ul>
     </nav>
     <main>
-        <h1>Your form has been successfully submitted! Thank you.</h1>     
+        <div class="join-grid">
+            <div>
+                <form method="get" action="join.html" onSubmit="return check_Alpha(this)">
+                    <fieldset>
+                        <h2 class="thanks">Your form has been successfully submited!</h2>
+                        </fieldset>
+                        <input type="submit" value = "Send another form"  class="submitBtn-2">
+                    </form>
+    </div>
+        <div>
+        <img src="images/thanksimg.png" alt="team" class="join-img">
+       </div>
+    </div> 
     </main> 
     <footer>
-        <p>&copy;<span class="copyrightyear"></span> | Sofia Pavlova | <a class="footerlink" href="https://www.byui.edu/online" target="_blank">BYUI Online Learning</a> | Weather data source: <a class="footerlink" href="https://openweathermap.org/">OpenWeather</a></p>
-        <div class="social">
+        <p>&copy;<span class="copyrightyear"></span> | Sofia Pavlova | <a class="footerlink" href="https://www.byui.edu/online" target="_blank">BYUI Online Learning</a> | Weather data source: <a class="footerlink" href="https://openweathermap.org/">OpenWeather</a>| Last modified: <span id="timePassed"></span></p>
+ <div class="social">
             <a target="_blank" href="https://www.youtube.com/"><img src="../home/images/youtube.png" alt="YouTube icon"></a>
             <a target="_blank" href="https://www.facebook.com/"><img src="../home/images/facebook.png" alt="Facebook icon"></a>
             <a target="_blank" href="https://twitter.com/?lang=ru"><img src="../home/images/twitter.png" alt="Twitter icon"></a>

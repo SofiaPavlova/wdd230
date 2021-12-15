@@ -1,3 +1,8 @@
+//Menu
+function toggleMenu() {
+  document.getElementById("primaryNav").classList.toggle("hide");
+  }
+
 var jsonFile = 'directory.json';
 fetch(jsonFile)
   .then(function (response) {
@@ -49,3 +54,8 @@ fetch(jsonFile)
           localStorage.setItem('temp', view);
       });
   });
+
+  // Last modified
+  if (Date.parse(document.lastModified) != 0)
+  document.write(document.lastModified);
+  document.getElementById("timePassed").innerHTML=document.lastModified;  

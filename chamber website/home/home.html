@@ -18,7 +18,11 @@
     <script defer src="js/weather.js"></script>
 </head>
 <body>
+    <div id="myBanner" class="banner">
+        <span class="close">&times; <strong>Weather alert: <span id="alert-banner"></span>.  </strong>You can see the weather forecast below on this page!</span>
+</div>
     <header>
+        
         <div>
             <h1>Moscow Chamber of Commerce</h1>
         </div>
@@ -37,27 +41,66 @@
             </ul>
     </nav>
     <main>
-        <!--First Section-->
+        <!--Welcome Section-->
+        <h2>Welcome!</h2>
         <article class="goals">
             <img src="images/chamber.jpg" alt="Moscow chamber of commerce">
-        <h1>Welcome</h1>
+      
             <p>
-                "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae." 
+                <strong>The Moscow Chamber of Commerce</strong> is a non-governmental non-profit organization established in 1991.<br><br>
 
+                Our main goal is to support Moscow business and promote the development of entrepreneurship in Moscow, building effective relationships between business and government.<br><br>
+                
+                Today the Moscow Chamber of Commerce unites more than 3,800 companies from various segments and sectors of the Moscow economy - large, medium and small businesses, individual entrepreneurs, state, municipal and public organizations, branches of foreign companies. We are the largest association of entrepreneurs in the capital of Russia.
+                On this site you can learn more about us and join. Contact us if you have any questions, we are happy to help! 
             </p>
         </article>
-        <!--Second Section-->
+        <!--3 Companies Section-->
+        <div>
+            <h2>Local Companies</h2>
+            <div class="grid-container">
+                <div class="grid-item supermum">
+            <img src="images/logo-design.png" alt="design complany logo" width="148"></div>
+            <div class="grid-item tryhard">
+                <img src="images/logo-tryhard.png" alt="digital marketing logo" width="188"></div>
+            <div class="grid-item city-park">
+                <img src="images/city-park.png" alt="city park logo" width="168"></div>
+            <div class="grid-item superm">
+                <p>Supremum Design provides services for the development of logo design, corporate identity, brand books, corporate websites, product packaging and printing publications, as well as food stylistics, subject photography, and more.</p>
+                <p>📍 Moscow, st. Koktebelskaya, 4A</p>
+                <p>🖥  info@supremumdesign.com</p>
+                <p>☎️  +79030093599</p>
+                </div>
+                <div class="grid-item tryhar">
+                <p>Digital Marketing Agency. Provides services for web development, internet marketing, SEO, contextual advertising, SMM, content writing and website support for large and small businesses that want to develop their business more effectively on the Internet.</p>
+              <p>📍 Moscow, Partiyni lane, 329</p>
+              <p>🖥  tryhardagency.ru/</p>
+              <p>☎️  +79958981664</p>
+            </div>
+            <div class="grid-item">
+            <p>CITY PARK is a premium class residential area. Terraced development of six buildings, exploitable roofs, courtyards organized according to the principle of a private garden, provide residents with the opportunity to be closer to nature, while remaining in the center of Moscow.</p>
+            <p>📍 Moscow, st. Mantulinskaya, 7 </p>
+            <p>🖥  citypark.moscow/</p>
+            <p>☎️  +74951626142</p>
+        </div>
+        </div>
+        </div>
+        <!--Events-->
+        <h2>Upcoming Events</h2>
         <section class="events">
 
         </section>
+         <!--Weather-->
         <div class="weathersum">
             <h2>Weather Summary</h2>
-            <h2 class="3dayforecast">3 Day Forecast</h2>
+            <h2 class="dayforecast">3 Day Forecast</h2>
+            <div class="weathers">
             <ul> 
-               <li>Currently: <span id="currently"></span>&deg; C</li>
-               <li>High: <span id="current-temp"></span>&deg; C</li>
+               <li>Currently: <span id="currently"></span></li>
+               <li>Current Temperature: <span id="current-temp"></span>&deg; C</li>
                <li>Humidity: <span id="humidity"></span>%</li>
         </ul>  
+    </div>
         <div class="grid">
             <div class="grid-col">
                <div class="weedD"><span id="dayofweek1"></span> </div>
@@ -79,51 +122,24 @@
             </div>
             </div>
             </div>
-        <!--Third Section-->
-        <div>
-            <h1 class="section-2">Local Companies</h1>
-            <div class="grid-container">
-                <div class="grid-item">
-            <img src="images/logo-design.png" alt="design complany logo" width="148"></div>
-            <div class="grid-item">
-                <img src="images/logo-tryhard.png" alt="digital marketing logo" width="148"></div>
-            <div class="grid-item">
-                <img src="images/city-park.png" alt="city park logo" width="148"></div>
-            <div class="grid-item">
-                <p>Supremum Design provides services for the development of logo design, corporate identity, brand books, corporate websites, product packaging and printing publications, as well as food stylistics, subject photography, and more.</p>
-                <p>📍 Moscow, st. Koktebelskaya, 4A</p>
-                <p>🖥  info@supremumdesign.com</p>
-                <p>☎️  +79030093599</p>
-                </div>
-                <div class="grid-item">
-                <p>Digital Marketing Agency. Provides services for web development, internet marketing, SEO, contextual advertising, SMM, content writing and website support for large and small businesses that want to develop their business more effectively on the Internet.</p>
-              <p>📍 Moscow, Partiyni lane, 329</p>
-              <p>🖥  tryhardagency.ru/</p>
-              <p>☎️  +79958981664</p>
+        
+        <!--Contact info Section-->
+        <div class="cta-grid">
+            <div class="item-2">
+                <h2>Contact Information</h2>
+                <p>🗺   Moscow, st. Petrovka, 18-1
+                   </p>
+                <p>☎️  999,999,9999</p>
+                <p> 📬  mscch@tws.com</p>
             </div>
-            <div class="grid-item">
-            <p>CITY PARK is a premium class residential area. Terraced development of six buildings, exploitable roofs, courtyards organized according to the principle of a private garden, provide residents with the opportunity to be closer to nature, while remaining in the center of Moscow.</p>
-            <p>📍 Moscow, st. Mantulinskaya, 7 </p>
-            <p>🖥  citypark.moscow/</p>
-            <p>☎️  +74951626142</p>
-        </div>
-        </div>
-        <!--Fourth Section-->
-        <div class="cta">
-            <img src="images/cta.jpg" alt="CTA img">
-        </div>
-        <div class="contact">
-            <h2>Contact Information</h2>
-            <p>🗺   Moscow, st. Petrovka, 18-1
-               </p>
-            <p>☎️  999,999,9999</p>
-            <p> 📬  mscch@tws.com</p>
+            <img src="images/cta.jpg" alt="CTA img" class="item-1">
+       
         </div>
         <br>
     </main>
     <footer>
-        <p>&copy;<span class="copyrightyear"></span> | Sofia Pavlova | <a class="footerlink" href="https://www.byui.edu/online" target="_blank">BYUI Online Learning</a> | Weather data source: <a class="footerlink" href="https://openweathermap.org/">OpenWeather</a></p>
-        <div class="social">
+        <p>&copy;<span class="copyrightyear"></span> | Sofia Pavlova | <a class="footerlink" href="https://www.byui.edu/online" target="_blank">BYUI Online Learning</a> | Weather data source: <a class="footerlink" href="https://openweathermap.org/">OpenWeather</a>| Last modified: <span id="timePassed"></span></p>
+ <div class="social">
             <a target="_blank" href="https://www.youtube.com/"><img src="images/youtube.png" alt="YouTube icon"></a>
             <a target="_blank" href="https://www.facebook.com/"><img src="images/facebook.png" alt="Facebook icon"></a>
             <a target="_blank" href="https://twitter.com/?lang=ru"><img src="images/twitter.png" alt="Twitter icon"></a>

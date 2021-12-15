@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="../home/css/normalize.css">
     <link rel="stylesheet" href="join.css">
     
-    <script defer src="js/weather.js"></script>
+    <script defer src="join.js"></script>
 </head>
 <body>
     <header>
@@ -38,10 +38,12 @@
             </ul>
     </nav>
     <main>
-        <h1>Fill out the form to join:</h1>
+        <div class="join-grid">
+            <div class="join-grid-1">
             <form method="get" action="thanks.html" onSubmit="return check_Alpha(this)">
             <fieldset>
-                <legend>Personal Information</legend>
+                <legend>Fill out this form to join</legend>
+                <h4>Personal Information</h4>
                <label class="top">First Name* <input type="text" name="fname" required></label>
                <label class="top">Last Name* <input type="text" name="lname" required></label>
                <label class="top">Title <input type="text" name="title"></label>
@@ -49,13 +51,13 @@
                <label class="top">Cell Phone* <input type="tel" name="phone" placeholder="1235551234"></label>
             </fieldset>
             <fieldset>
-                <legend>Business Information</legend>
+                <h4>Business Information</h4>
                 <label class="top">Business Name* <input type="text" name="fname" required></label>
                <label class="top">Business Address <input type="text" name="lname"></label>
                <label class="top">Business Website <input type="url" name="website"></label>
             </fieldset>
             <fieldset>
-                <legend>Membership level</legend>
+                <h4>Membership level</h4>
                 <label class="sbs"><input type="radio" name="membership" value="non-profit"> Non-Profit($100)</label>
                 <label class="sbs"><input type="radio" name="membership" value="bronze"> Bronze ($200)</label>
                 <label class="sbs"><input type="radio" name="membership" value="silver"> Silver ($400)</label>
@@ -64,10 +66,49 @@
 
             <input type="submit" value = "Send my from" class="submitBtn">
         </form>
+    </div>
+        <div class="join-grid-2">
+        <img src="images/business1.jpg" alt="team"  class="join-img">
+        <h3>Your opinion will be heard!</h3>
+        <p>You will be able to influence the rule-making process by participating in the development of the MCoC position on regulatory legal acts affecting the interests of business.</p>
+        <h3>We are stronger together!</h3>
+        <p>Join public structures, express your initiatives, advocate for the development of business and the economy.
+        The MCoC has 23 Guilds and 37 Committees.
+        Take part in round tables, conferences, meetings and discuss exciting topics of your business at the MCoC forum.</p>
+        <h3>Professional support for your business!</h3>
+        <p>MCoC provides a wide range of services in the field of business and entrepreneurship support in Moscow. The support includes legal advice, advice on participation in government orders, solving operational problems in doing business. MCoC provides support on business issues, including through cooperation agreements.</p>
+        <h3>Public meetings of authorities with business representatives</h3>
+        <p>Take part in round tables, conferences, meetings and discuss exciting topics of your business at the MCOC forum.</p>
+        <h3>Reliability and decency</h3>
+        <p>Enter the Register of Reliable Partners and prove that you are a bona fide and trustworthy company, and the Register of Commercial Designations will certify the fact of using a commercial designation.</p>
+        <div class="membership-levels">
+            <h4>Non-Profit($100)</h4>
+            <h4>Bronze ($200)</h4>
+            <h4>Silver ($400)</h4>
+            <h4>Gold ($1000)</h4>
+            <p>☑ Best for solopreneurs <br>
+                ☑ Monthly events and news<br>
+                ☑ Eligible to participate in leads groups <br>
+                </p>
+            <p>☑ Best for small to medium-sized businesses <br>
+                ☑ List “Hot Deals” on Chamber website <br>
+                ☑ List “Job Openings” on Chamber website
+                </p>
+            <p>☑ Best for medium to large companies and organizations <br>
+                ☑ Up to two free one-time use email list or mailing labels for your marketing purposes<br>
+                ☑ Two free tickets to the Annual Awards event
+            </p>
+            <p>☑ Featured once annually on Chamber Facebook page<br>
+                ☑ Logo appears on Chamber website home page, banners<br>
+                ☑ Logo appears on Chamber’s banner at events<br>
+                ☑ An annual feature in Chamber’s e-newsletter
+    </div>
+    </div>
+    </div>
     </main>
     <footer>
-        <p>&copy;<span class="copyrightyear"></span> | Sofia Pavlova | <a class="footerlink" href="https://www.byui.edu/online" target="_blank">BYUI Online Learning</a> | Weather data source: <a class="footerlink" href="https://openweathermap.org/">OpenWeather</a></p>
-        <div class="social">
+        <p>&copy;<span class="copyrightyear"></span> | Sofia Pavlova | <a class="footerlink" href="https://www.byui.edu/online" target="_blank">BYUI Online Learning</a> | Weather data source: <a class="footerlink" href="https://openweathermap.org/">OpenWeather</a>| Last modified: <span id="timePassed"></span></p>
+ <div class="social">
             <a target="_blank" href="https://www.youtube.com/"><img src="../home/images/youtube.png" alt="YouTube icon"></a>
             <a target="_blank" href="https://www.facebook.com/"><img src="../home/images/facebook.png" alt="Facebook icon"></a>
             <a target="_blank" href="https://twitter.com/?lang=ru"><img src="../home/images/twitter.png" alt="Twitter icon"></a>

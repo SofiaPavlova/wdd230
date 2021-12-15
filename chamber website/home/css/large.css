@@ -2,5 +2,65 @@
     nav ul li a {
         padding: .6rem 1rem;
     }
-   
+    nav ul {
+        display:inline-block;
+    }
+    nav ul li{
+        display:inline-block;
+        font-size: 1.2rem;
+    }
+    /*Home*/
+   .banner{
+    font-size: 1.2rem;
+   }
+   header h1{
+       font-size: 3rem;
+       padding: 0px;
+       margin-left: 0px;
+   }
+   article img{
+    float: left;
+       padding: 20px;
+       width: 600px;
+   }
+   .grid-container{
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 2fr;
+    grid-gap: 20px;
+   }
+   .grid-item{
+       grid-column: auto;
+       grid-row: auto;
+       font-size: 20px;
+   }
+   .grid-item img{
+       width: 148px;
+   }
+   .events{
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+   }
+   .weathersum{
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+   }
+   .dayforecast{
+    grid-row: auto;
+   }
+   .cta-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 50px;
+    border: 3px solid #e63946;
+    border-radius: 10px;
+    padding: 20px;
+}
+  .item-1{
+    box-shadow: 0 0 3px black;
+    width: 500px;
+    margin-left: 0;
+}
+  footer{
+    font-size: 20px;
+}
 }

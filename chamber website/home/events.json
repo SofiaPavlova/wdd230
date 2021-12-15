@@ -1,0 +1,22 @@
+{
+    "events": [
+      {
+        "date": "December 16",
+        "time": "10am-1pm",
+        "event": "Discussion draft law of the city of Moscow.",
+        "location": "st. Petrovka, 18-1"
+      },
+      {
+        "date": "December 17",
+        "time": "6pm-8pm",
+        "event": "Problems of social entrepreneurship. Specific ideas and solutions.",
+        "location": "Online"
+      },
+      {
+        "date": "January 4",
+        "time": "2pm-4pm",
+        "event": "Pitch session within the acceleration program.",
+        "location": "st. Petrovka, 18-2"
+      }
+    ]
+}

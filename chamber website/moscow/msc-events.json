@@ -1,0 +1,19 @@
+{
+    "msc-events": [
+      {
+        "date": "December 16",
+        "event": "Christmas Fair",
+        "location": "Tverskaya Street"
+      },
+      {
+        "date": "December 25",
+        "event": "Choir of the Sretensky Monastery",
+        "location": "Zaryadye Concert Hall"
+      },
+      {
+        "date": "January 4",
+        "event": "Ice rink opening",
+        "location": "Gorky Park"
+      }
+    ]
+}
